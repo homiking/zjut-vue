@@ -3,9 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <script src="static/config.js"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=KSGubGAHCTQ7ayWhDPiuYsOpxZ4TEA17">
+    window.onload = loadScript;
+    </script>
   </head>
   <body>
     <noscript>

@@ -1,5 +1,5 @@
 {
-  "name": "springboot-vue-demo",
+  "name": "zjut",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,10 +7,17 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^1.1.4",
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "element-plus": "^2.1.11",
+    "fecha": "^4.2.3",
+    "js-cookie": "^3.0.1",
     "vue": "^3.2.13",
+    "vue-baidu-map": "^0.21.22",
     "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "vuex": "^4.0.0",
+    "wangeditor": "^4.7.15"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
