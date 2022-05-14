@@ -17,3 +17,5 @@ yarn build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+项目后端地址 https://github.com/homiking/zjutspringboot.git
